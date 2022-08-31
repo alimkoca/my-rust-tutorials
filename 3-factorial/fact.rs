@@ -12,7 +12,7 @@ fn fact(num: u32) -> u32 {
 fn main() {
     let mut input = String::new();
 
-    print!("Which num do you want to take factorial of?: ");
+    print!("Which number do you want to get the factorial?: ");
     let _ = stdout().flush();
 
     stdin().read_line(&mut input)
