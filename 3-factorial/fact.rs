@@ -19,7 +19,6 @@ fn main() {
         .expect("Error");
 
     // Note: Don't forget trim for \r and \n, 
-    // these are can't be unwrapped.
     let num: u32 = input.trim().parse().unwrap();
     println!("{}", fact(num));
 }
